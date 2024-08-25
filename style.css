@@ -89,3 +89,9 @@ body::before {
 .right-arrow {
   right: calc(15vw - 65px);
 }
+
+.arrow:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
